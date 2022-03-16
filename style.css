@@ -1,0 +1,263 @@
+/*   　      全体のcss   　          */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+ }  /* user agent stylesheetの為 */
+
+.menu-icon {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+}
+
+.btn-type1 {
+    background-color: orange;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-type1:hover {
+    background-color: hsl(29, 95%, 48%);
+}
+
+.btn-type2 {
+    background-color: white;
+    font-weight: normal;
+    color: black;
+    border: 1px solid gray;
+    border-color: gray;
+}
+
+.btn-type3 {
+    background-color: white;
+    font-weight: bold;
+    color: orange;
+}
+
+.btn-type3:hover {
+    background-color: rgb(240, 237, 235);
+}
+
+.write-small {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.write-big {
+    font-size: 40px;
+}
+
+/*   　      header-css    　      */
+header {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    position: relative;
+}
+
+
+/*    　 　　 header-left　  　      */
+.header-left {
+    padding: 15px 3px;
+    z-index: 2;  /* max-width:1000以上の場合aタグが効かなくなる為 */
+}
+
+img.pote-logo {
+    height: 20px;
+    width: auto;
+}
+
+
+/*    　　　  header-right　    　    */
+.header-right {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: auto;
+}
+
+.menu-icon {
+    font-size: 25px;
+    float: right;
+    display: none;
+    color: black;
+    position: fixed;
+    right: 10px;
+    top: 15px;    /*  header-leftのpaddingと高さ合わせる */
+  }
+
+.navi-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px 5px;
+}
+
+.navi-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    z-index: 1; /* bakground-imgに重なり非表示になる為 */
+}
+
+header a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list-item span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*    　　　   top-wrapper　    　    */
+
+img.main-img {
+    width: 100%;
+    display: none;
+}
+
+.top-wrapper {
+    width:  100%;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.top-container {
+    padding-left: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.first-view {
+    width: fit-content;
+    margin: 0 40px;
+}
+
+main.btn {
+    height: 60px;
+}
+
+.first-text {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    width: fit-content;
+}
+
+.first-imgs {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.img-2 {
+    padding: 0 10px;
+}
+
+.first-buttons {
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+
+.text-attention {
+    color: gray;
+    font-size: 5px;
+    margin-top: 20px;
+}
+
+.text-attention a {
+    color: gray;
+}
+
+
+/*    　　　  message-wrapper　    　    */
+.message-wrapper {
+    background-color: orange;
+}
+
+.message-container {
+    padding: 40px 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.message-container h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.message-container h2>span {
+    font-size: 50px;
+}
+
+.message-container p {
+    font-size: 15px;
+}
+
+.text-about {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.btn-about {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btn-about a {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 80px;
+    height: 60px;
+    margin-top: 50px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+

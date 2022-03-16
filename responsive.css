@@ -1,0 +1,118 @@
+/*     for tablet       */
+@media all and (max-width: 1000px) {
+    header {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .message-wrapper {
+        width: 100%;
+    }
+
+    .text-about {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .message-container {
+        flex-flow: column;
+    }
+
+}
+
+/*       for smartphone       */
+@media all and (max-width: 600px) {
+    header {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+    }
+
+    .top-wrapper {
+        padding-top: 0;
+        width: auto;
+        background-image: none;
+    }
+
+    .first-view {
+        width: auto;
+        margin-top: -150px;
+    }
+
+    .first-text {
+        font-size: 25px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .btn-type1 {
+        display: block;
+        width: 100%;
+        height: 65px;
+    }
+
+    .first-buttons a {
+        padding-top: 20px;
+    }
+
+    img.main-img {
+        width: 100%;
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .first-imgs {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btn-type2 {
+        display: none;
+    }
+
+    .message-wrapper {
+        width: 100%;
+    }
+
+    .text-about {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .message-container {
+        flex-flow: column;
+    }
+
+    .message-container h2 span {
+        font-size: 30px;
+    }
+
+    .message-container h2 {
+        font-size: 30px;
+    }
+
+}
+
+    
+
